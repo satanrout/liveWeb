@@ -1,0 +1,48 @@
+:root {
+  --base: rgb(3, 212, 108);
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+
+
+
+
+body {
+  text-align: center;
+  background: #193549;
+  color: white;
+  font-size: 25px;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: var(--base);
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+  width: 80vw;
+  height: auto;
+}
+
+.controlls {
+  margin-bottom: 50px;
+}
+
+.input {
+  width: 100px;
+  display: flex;
+}
+
+@media only screen and (max-width: 700px) {
+  .controlls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
