@@ -10,7 +10,7 @@
 
 body {
   text-align: center;
-  background: #193549;
+  background: linear-gradient(to right, rgb(0, 120, 255), rgb(241, 0, 255));
   color: white;
   font-size: 25px;
   font-weight: 100;
